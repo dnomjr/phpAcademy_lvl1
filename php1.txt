@@ -1,0 +1,18 @@
+Sprav logovac prichodov studentov 
+- nainstaluj si php nech vies servnut php script - OK
+
+- sprav zakladny php skript, ktory vypise ahoj - OK
+
+- vypis aktualny datum a cas naformatovany - OK
+
+- ukladaj aktualny datum a cas do suboru (ak uz v subore existuje datum a cas, novy cas sa pripise), kazdy zaznam daj na novy riadok - OK
+
+- getuj obsah log suboru a vypis ho - OK
+
+- sprav tie veci co tu su cez funkcie ktore budu pomenovavat co sa robi, napriklad na ziskanie dat zo suboru nazves funkciu getLogs() - OK
+
+- ak prisiel student po 8:00, tak dopis do logu za cas dopis  string ""meskanie"" - OK
+
+- sprav premennu v ktorej vyhodnotis ci nastalo meskanie a tuto premennu posileaj ako parameter do funkcie ktora zapisuje logy do suboru - OK
+
+- ak pride student medzi 20-24, tak vyhod chybu cez die, ze nemoze sa dany prichod zapisat - OK
